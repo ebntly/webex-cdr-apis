@@ -1,0 +1,18 @@
+{
+  "ids": {
+    "CronJob": 3,
+    "CronLog": 5
+  },
+  "models": {
+    "CronJob": {
+      "1": "{\"name\":\"cdr-retention-job\",\"lastRun\":\"2024-10-16T21:19:00.023Z\",\"id\":1}",
+      "2": "{\"name\":\"recording-retention-job\",\"lastRun\":\"2024-10-16T21:19:00.011Z\",\"id\":2}"
+    },
+    "CronLog": {
+      "1": "{\"timestamp\":\"2024-10-16T21:15:01.048Z\",\"facility\":9,\"severity\":6,\"message\":\"Fetched CDR Entries\",\"data\":{\"count\":49,\"from\":\"2024-10-16T21:04:00.013Z\",\"to\":\"2024-10-16T21:09:00.013Z\"},\"cronJobId\":1,\"id\":1}",
+      "2": "{\"timestamp\":\"2024-10-16T21:15:01.609Z\",\"facility\":9,\"severity\":6,\"message\":\"Fetched Recordings\",\"data\":{\"count\":18,\"from\":\"2024-10-16T21:04:00.018Z\",\"to\":\"2024-10-16T21:09:00.018Z\"},\"cronJobId\":2,\"id\":2}",
+      "3": "{\"timestamp\":\"2024-10-16T21:15:02.532Z\",\"facility\":9,\"severity\":6,\"message\":\"Created 18 recordings\",\"data\":{\"failures\":0},\"cronJobId\":2,\"id\":3}",
+      "4": "{\"timestamp\":\"2024-10-16T21:15:03.320Z\",\"facility\":9,\"severity\":6,\"message\":\"Created 49 CDR Entries\",\"data\":{\"failures\":0},\"cronJobId\":1,\"id\":4}"
+    }
+  }
+}
